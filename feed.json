@@ -7,7 +7,7 @@
     "user_comment": "",
     "icon": "https://arunkumarmadhan.com/media/website/akm-logo.png",
     "author": {
-        "name": "Arun Madhan"
+        "name": "Arun Kumar Madhan"
     },
     "items": [
         {
@@ -17,7 +17,7 @@
             "summary": "This is a test",
             "content_html": "<p>This is a test</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://arunkumarmadhan.com/media/posts/1/1.jpg\" alt=\"\" width=\"1500\" height=\"1300\" sizes=\"(max-width: 1024px) 100vw, 1024px\" srcset=\"https://arunkumarmadhan.com/media/posts/1/responsive/1-xs.jpg 300w ,https://arunkumarmadhan.com/media/posts/1/responsive/1-sm.jpg 480w ,https://arunkumarmadhan.com/media/posts/1/responsive/1-md.jpg 768w ,https://arunkumarmadhan.com/media/posts/1/responsive/1-lg.jpg 1024w\"></figure>",
             "author": {
-                "name": "Arun Madhan"
+                "name": "Arun Kumar Madhan"
             },
             "tags": [
             ],
