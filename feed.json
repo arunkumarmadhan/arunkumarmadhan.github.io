@@ -1,0 +1,14 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Arun Kumar Madhan Photography",
+    "description": "",
+    "home_page_url": "https://arunkumarmadhan.com",
+    "feed_url": "https://arunkumarmadhan.com/feed.json",
+    "user_comment": "",
+    "icon": "https://arunkumarmadhan.com/media/website/akm-logo.png",
+    "author": {
+        "name": "Arun Madhan"
+    },
+    "items": [
+    ]
+}
