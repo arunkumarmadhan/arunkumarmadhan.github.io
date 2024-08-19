@@ -3,10 +3,31 @@
     <title>Arun Kumar Madhan Photography</title>
     <link href="https://arunkumarmadhan.com/feed.xml" rel="self" />
     <link href="https://arunkumarmadhan.com" />
-    <updated>1970-01-01T05:30:00+05:30</updated>
+    <updated>2024-08-19T12:24:10+05:30</updated>
     <author>
         <name>Arun Madhan</name>
     </author>
     <id>https://arunkumarmadhan.com</id>
 
+    <entry>
+        <title>Testing</title>
+        <author>
+            <name>Arun Madhan</name>
+        </author>
+        <link href="https://arunkumarmadhan.com/testing.html"/>
+        <id>https://arunkumarmadhan.com/testing.html</id>
+
+        <updated>2024-08-19T12:24:10+05:30</updated>
+            <summary>
+                <![CDATA[
+                    This is a test
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>This is a test</p>
+<figure class="post__image"><img loading="lazy"  src="https://arunkumarmadhan.com/media/posts/1/1.jpg" alt="" width="1500" height="1300" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://arunkumarmadhan.com/media/posts/1/responsive/1-xs.jpg 300w ,https://arunkumarmadhan.com/media/posts/1/responsive/1-sm.jpg 480w ,https://arunkumarmadhan.com/media/posts/1/responsive/1-md.jpg 768w ,https://arunkumarmadhan.com/media/posts/1/responsive/1-lg.jpg 1024w"></figure>
+            ]]>
+        </content>
+    </entry>
 </feed>
