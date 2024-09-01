@@ -1,3 +1,118 @@
 <!DOCTYPE html><html lang="en-gb"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Error 404 - Arun Kumar Madhan Photography</title><meta name="robots" content="noindex, follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="alternate" type="application/atom+xml" href="https://arunkumarmadhan.com/feed.xml"><link rel="alternate" type="application/json" href="https://arunkumarmadhan.com/feed.json"><meta property="og:title" content="Arun Kumar Madhan Photography"><meta property="og:image" content="https://arunkumarmadhan.com/media/website/akm-logo.png"><meta property="og:image:width" content="1080"><meta property="og:image:height" content="1080"><meta property="og:site_name" content="Arun Kumar Madhan Photography"><meta property="og:description" content=""><meta property="og:url" content="https://arunkumarmadhan.com/"><meta property="og:type" content="website"><link rel="shortcut icon" href="https://arunkumarmadhan.com/media/website/akm-logo1.ico" type="image/x-icon"><link rel="stylesheet" href="https://arunkumarmadhan.com/assets/css/style.css?v=33f32dac65fa62840cec8a7bf3ff7750"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Arun Kumar Madhan Photography","logo":"https://arunkumarmadhan.com/media/website/akm-logo.png","url":"https://arunkumarmadhan.com/"}</script><noscript><style>img[loading] {
                     opacity: 1;
-                }</style></noscript></head><body class="error-template"><div class="container"><header class="header" id="js-header"><a href="https://arunkumarmadhan.com/" class="logo"><img src="https://arunkumarmadhan.com/media/website/akm-logo.png" alt="Arun Kumar Madhan Photography" width="1080" height="1080"></a></header><main class="page page--search"><article class="post align-center wrapper"><header class="hero"><h1>404</h1></header><p>The page you were looking for appears to have been moved, deleted or does not exist. You could go back to where you were or head straight to our home page.</p><p><a href="https://arunkumarmadhan.com/" class="btn hero__cta btn--icon"><span>← Go home</span></a></p></article></main><footer class="footer"><div class="footer__copyright">coming soon</div></footer></div><script defer="defer" src="https://arunkumarmadhan.com/assets/js/scripts.min.js?v=4268bfae06e330d473c424d50f09abda"></script><script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.navbar'};</script><script>/*<![CDATA[*/var images=document.querySelectorAll("img[loading]");for(var i=0;i<images.length;i++){if(images[i].complete){images[i].classList.add("is-loaded")}else{images[i].addEventListener("load",function(){this.classList.add("is-loaded")},false)}};/*]]>*/</script></body></html>
+                }</style></noscript></head><body class="error-template"><div class="container"><header class="header" id="js-header"><a href="https://arunkumarmadhan.com/" class="logo"><img src="https://arunkumarmadhan.com/media/website/akm-logo.png" alt="Arun Kumar Madhan Photography" width="1080" height="1080"></a></header><main class="page page--search"><article class="post align-center wrapper"><header class="hero"><h1>404</h1></header><p>The page you were looking for appears to have been moved, deleted or does not exist. You could go back to where you were or head straight to our home page.</p><p><a href="https://arunkumarmadhan.com/" class="btn hero__cta btn--icon"><span>← Go home</span></a></p></article></main><footer class="footer"><div class="footer__copyright">coming soon</div></footer></div><script defer="defer" src="https://arunkumarmadhan.com/assets/js/scripts.min.js?v=4268bfae06e330d473c424d50f09abda"></script><script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.navbar'};</script><script>/*<![CDATA[*/var images=document.querySelectorAll("img[loading]");for(var i=0;i<images.length;i++){if(images[i].complete){images[i].classList.add("is-loaded")}else{images[i].addEventListener("load",function(){this.classList.add("is-loaded")},false)}};/*]]>*/</script><style>.floating {
+                    position: fixed;
+                    z-index: 1000; /* Ensure it's above other content */
+                }
+                .top-right {
+                    top: 10px;
+                    right: 10px;
+                }
+                .top-center {
+                    top: 10px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+                .top-left {
+                    top: 10px;
+                    left: 10px;
+                }
+                .bottom-right {
+                    bottom: 10px;
+                    right: 10px;
+                }
+                .bottom-center {
+                    bottom: 10px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+                .bottom-left {
+                    bottom: 10px;
+                    left: 10px;
+                }</style><script>const timerDiv = document.createElement('div');
+                    timerDiv.id = "countdown";
+                    timerDiv.className = "top-right";
+                    timerDiv.classList.add("floating", "undefined");
+                    timerDiv.style.display = "flex";
+                    timerDiv.style.flexDirection = "column";
+                    timerDiv.style.alignItems = "center";
+                    timerDiv.style.maxWidth = "100%";
+    
+                    const textDiv = document.createElement('div');
+                    textDiv.id = "countdown-text";
+                    let displayText = "undefined";
+                    if (displayText.length > 100) {
+                        displayText = displayText.substring(0, 96) + " ...";
+                    }
+                    textDiv.innerHTML = displayText;
+                    textDiv.style.maxWidth = "100%";
+                    textDiv.style.wordWrap = "break-word";
+                    textDiv.style.textAlign = "center";
+                    if (textDiv.innerHTML != "") {
+                        textDiv.style.marginBottom = "5px";
+                    }
+    
+                    const timeDiv = document.createElement('div');
+                    timeDiv.id = "countdown-time";
+                    timeDiv.style.whiteSpace = "nowrap";
+    
+                    timerDiv.appendChild(textDiv);
+                    timerDiv.appendChild(timeDiv);
+                    
+                    // Check if showOn is "home" and set display to none if not on home page
+                    if ("undefined" === "home") {
+                        if (window.location.pathname !== "/") {
+                            timerDiv.style.display = "none";
+                        }
+                    }
+    
+                    document.body.appendChild(timerDiv);
+    
+                    // Ensure responsiveness
+                    window.addEventListener('resize', function() {
+                        const containerWidth = timerDiv.offsetWidth;
+                        textDiv.style.fontSize = Math.max(12, Math.min(16, containerWidth / 15)) + 'px';
+                        timeDiv.style.fontSize = Math.max(16, Math.min(24, containerWidth / 10)) + 'px';
+                    });
+                    // Trigger initial resize
+                    window.dispatchEvent(new Event('resize'));
+    
+                    (function() {
+                        const targetDate = 1735669800000;
+                        const combinedDateTime = "2025-01-01T00:00+05:30";
+                        function updateTimer() {
+                            const now = new Date().getTime();
+                            var remaining = targetDate - now;
+    
+                            if (remaining <= 0) {
+                                remaining = 0;
+                            }
+    
+                            const days = Math.floor(remaining / (1000 * 60 * 60 * 24));
+                            const hours = Math.floor((remaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                            const minutes = Math.floor((remaining % (1000 * 60 * 60)) / (1000 * 60));
+                            const seconds = Math.floor((remaining % (1000 * 60)) / 1000);
+    
+                            document.getElementById("countdown-time").innerHTML =
+                                `${days}d ${hours}h ${minutes}m ${seconds}s`;
+                        }
+    
+                        const timerInterval = setInterval(updateTimer, 1000);
+                        updateTimer();
+                        
+                        // Handle click action
+                        const clickAction = "undefined";
+                        const clickActionValue = "undefined";
+                        
+                        if (clickAction !== "none") {
+                            document.getElementById("countdown").style.cursor = "pointer";
+                            document.getElementById("countdown").addEventListener("click", function() {
+                                if (clickAction === "event") {
+                                    const event = new CustomEvent(clickActionValue);
+                                    document.dispatchEvent(event);
+                                } else if (clickAction === "redirect") {
+                                    window.location.href = clickActionValue;
+                                }
+                            });
+                        }
+                    })();</script></body></html>
